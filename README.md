@@ -17,8 +17,19 @@
     Use /* para iniciar o comnetário e */ para fechar.
 
     /**
-      * You can edit, run, and share this code. 
-      * play.kotlinlang.org 
+       You can edit, run, and share this code. 
+       play.kotlinlang.org 
     */
 
+    * Tipos da variáveis
+      Int,Long, Float, Char, Bool, Null!
+      
+    * Métodos de conversão de TIPO  
+      toInt(), toChar()
+    
+    * Declarar variável
+      var variável mutável, pode ser atribuido novos valores a qualquer tempo
+      Val para declarar constantes, só pode ser atribuido valores uma única vez
+      const val pode ser atribuido valores durante a compilação
+      
   
