@@ -19,8 +19,8 @@ fun
 Use /* para iniciar o comnetário e */ para fechar.
   ~~~
     /*
-       You can edit, run, and share this code. 
-       play.kotlinlang.org 
+       Sempre comente seus códigos para ajudar a entender e modificar depois. 
+       Simule a linguagem em play.kotlinlang.org 
     */
   ~~~
   
@@ -28,7 +28,9 @@ Use /* para iniciar o comnetário e */ para fechar.
       Int,Long, Float, Char, Bool, Null!
       
 ## Métodos de conversão de TIPO  
-      toInt(), toChar()
+toInt(), toChar()
+      
+      "100".toInt()
     
 ## Declarar variável
 var variável mutável, pode ser atribuido novos valores a qualquer tempo
@@ -40,6 +42,15 @@ const val pode ser atribuido valores durante a compilação
       var comprimento = 50
       val unidade = 5
       const val VALOR_PI = 3.14
-      
+
+## Operadores Aritiméticos
+var variável mutável, pode ser atribuido novos valores a qualquer tempo
+
+Operador | Função | Sintatexe
+:----:   | :----- | :-----
++        | soma   | 10 + 2
+
+      var comprimento = 50
+
       
   
