@@ -1,0 +1,42 @@
+/**
+ * Introdução ao Kotlin
+ * https://play.kotlinlang.org/
+ * Autor: Crelison Alves
+ * Data: 14/07/2021 
+ *
+ * Criação de objeto Array de String usando arrayOf().
+ * 
+ * 
+ */
+
+fun main() {
+    
+    // Cria um array de string usando o arrayOf() e inicializa a String
+    val nomes = arrayOf("Crelison", "Kotlin", "Java")
+    
+    //Exibe o Array
+    for ( nome in nomes){
+        println(nome)
+    }
+    println("\n-----------------------")
+    
+    // Outra forma de exibir o Array
+    nomes.forEach{ nome ->
+        println(nome)
+    }
+	println("\n-----------------------")
+    
+    // Outra forma de exibir o Array
+    for (index in nomes.indices){
+        println(nomes[index])
+    }
+    println("\n-----------------------")
+
+    // Ordenando o Array
+    nomes.sort()
+    for (index in nomes.indices){
+        println(nomes[index])
+    }
+    
+    
+}
